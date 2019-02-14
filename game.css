@@ -1,0 +1,70 @@
+html {
+  --background: #4682b4;
+}
+
+.jumbotron {
+  height: 230px;
+  background-color: var(--background);
+  text-transform: uppercase;
+}
+
+.rounded-pill {
+  padding-bottom: 100%;
+  background-color: rgb(52, 58, 64);
+  transition: all 0.5s;
+}
+
+.col-4 {
+  margin: 15px 0 15px 0;
+}
+
+.container {
+  width: 768px;
+}
+
+.navbar {
+  height: 2rem;
+}
+
+button {
+  height: 100%;
+  font-weight: 500;
+  background: none;
+  border: none;
+  transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  outline: none;
+}
+
+button:hover {
+  background-color: var(--background);
+  color: white;
+}
+
+.selected {
+  background-color: var(--background);
+  color: white;
+}
+
+.hide {
+  background-color: #343a40;
+}
+
+@media (max-width: 768px) {
+  .display-5 {
+    font-size: 1.7rem;
+  }
+  .display-2 {
+    font-size: 3rem;
+  }
+  .jumbotron {
+    height: 10rem;
+  }
+  .guess {
+    width: 90vw;
+  }
+  .jumbotron .container {
+    width: 100vw;
+  }
+}
